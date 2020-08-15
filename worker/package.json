@@ -1,0 +1,21 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "async-redis": "^1.1.7",
+    "csv-parser": "^2.3.3",
+    "dotenv": "^8.2.0",
+    "minio": "^7.0.16",
+    "mongodb": "^3.6.0",
+    "redis": "^3.0.2"
+  }
+}
